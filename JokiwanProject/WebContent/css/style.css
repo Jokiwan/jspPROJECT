@@ -51,12 +51,13 @@ p a:hover {
 	width: 940px;
 }
 #page div {
-	background: #f5f1e6 url(../images/bg-logo.jpg) no-repeat left top;
+	background: #f5f1e6 ;
 	padding: 0;
 	width: 940px;
 }
 #page div div#header {
 	background: none;
+	background-color: #d3d1cf;
 	overflow: hidden;
 	padding: 0;
 	width: auto;
@@ -78,7 +79,7 @@ p a:hover {
 	padding: 0 20px;
 }
 #page div div#header ul li a {
-	color: #db9e29;
+	color: #000000;
 	display: block;
 	font-family: 'UltraRegular';
 	font-size: 25px;
@@ -106,18 +107,8 @@ p a:hover {
 	position: absolute;
 	top: 85px;
 }
-
-#page div div#body div#figure span#home {
-	color: #dad6d9;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	top: 300px;
-	width: 340px;
-}
 #page div div#body div#figure span#login a {
-	background: url(../images/bg-find-out.png) repeat;
-	color: #400000;
+	color: #9d9d9d;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: bold;
@@ -130,12 +121,11 @@ p a:hover {
 	text-shadow: none;
 	vertical-align: middle;
 	position: relative;
-	left: 470px;
-    top: -50px;
+	left: 490px;
+    top: -80px;
 }
 #page div div#body div#figure span#sign a {
-	background: url(../images/bg-find-out.png) repeat;
-	color: #400000;
+	color: #9d9d9d;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: bold;
@@ -149,25 +139,29 @@ p a:hover {
 	vertical-align: middle;
 	position: relative;
 	left: 550px;
-    top: -50px;
+    top: -80px;
 }
 #page div div#body div#figure span#home a {
-	background: url(../images/bg-find-out.png) repeat;
-	color: #400000;
+	background: url(../images/bg-home.png) repeat;
+	color: #000000;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 25px;
 	font-weight: bold;
-	height: 30px;
+	height: 35px;
 	letter-spacing: -0.025em;
-	line-height: 30px;
+	line-height: normal;
 	padding: 0 10px;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: none;
 	vertical-align: middle;
+	position: relative;
+	left: 90px;
+    top: -30px;
+    border-style: ridge;
 }
 #page div div#body div#figure span#home a:hover {
-	background: url(../images/bg-find-out-hover.png) repeat;
+	background: url(../images/bg-home-hover.png) repeat;
 }
 #page div div#body div {
 	background: none;
@@ -274,6 +268,7 @@ p a:hover {
 	height: 189px;
 	margin: 0;
 	position: relative;
+	top: 20px;
 	width: 237px;
 }
 #page div div#body div#featured span.whatshot a {
@@ -289,6 +284,32 @@ p a:hover {
 	padding: 0 10px;
 	text-align: center;
 	text-decoration: none;
+	position: relative;
+	top: 45px;
+}
+#page div div#body div#featured div a#coffee {
+	color: #000000;
+	font-family: 'UltraRegular';
+	font-size: 20px;
+	position: relative;
+	left: 45px;
+	top : -15px;
+}
+#page div div#body div#featured div a#foods {
+	color: #000000;
+	font-family: 'UltraRegular';
+	font-size: 20px;
+	position: relative;
+	left: 140px;
+	top : -15px;
+}
+#page div div#body div#featured div a#dessert {
+	color: #000000;
+	font-family: 'UltraRegular';
+	font-size: 20px;
+	position: relative;
+	left: 280px;
+	top : -15px;
 }
 #page div div#body div#featured span.whatshot a:hover {
 	background: url(../images/bg-find-out2-hover.png) repeat;
@@ -465,7 +486,7 @@ p a:hover {
 	margin: 0 0 0 5px;
 }
 #page div div#body div.section {
-	background: #3c200b url(../images/separator-content.jpg) no-repeat top center;
+	background: #d3d1cf url(../images/separator-content.jpg) no-repeat top center;
 	overflow: hidden;
 	padding: 30px 30px 0;
 	width: 880px;	
