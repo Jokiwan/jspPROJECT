@@ -163,6 +163,18 @@ p a:hover {
 #page div div#body div#figure span#home a:hover {
 	background: url(../images/bg-home-hover.png) repeat;
 }
+#page div div#body div#figure span#login a:hover {
+	color: #808080;
+}
+#page div div#body div#figure span#login a:hover:before {
+	content: none;
+}
+#page div div#body div#figure span#sign a:hover {
+	color: #808080;
+}
+#page div div#body div#figure span#sign a:hover:before {
+	content: none;
+}
 #page div div#body div {
 	background: none;
 	overflow: hidden;
@@ -490,6 +502,17 @@ p a:hover {
 	overflow: hidden;
 	padding: 30px 30px 0;
 	width: 880px;	
+}
+#page div div#body div.section ul li a img {
+	width: 170px;
+	height: 250px; 
+}
+#page div div#body div.section div ul li span#add {
+	font-size: 15px;
+	color: #0000a0;
+	text-align: center;
+	font-weight: bold;
+	
 }
 #page div div#body div.section ul {
 	float: left;
